@@ -231,6 +231,7 @@ class _HomePageState extends State<HomePage> {
                 "Reset",
                 style: TextStyle(color: Colors.white, fontSize: 20.0),
               ),
+              style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.red)),
               //color: Colors.red,
               //padding: const EdgeInsets.all(20.0),
               onPressed: resetGame,
